@@ -1,0 +1,238 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf8f2;
+    color: #4a3f35;
+    line-height: 1.6;
+}
+
+/* Navbar refinada */
+.navbar {
+    background-color: #7e57c2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar img.logo-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;        /* deixa circular */
+    object-fit: cover;         /* recorta e preenche mantendo proporção */
+    display: block;            /* remove espaçamento em inline */
+    margin: 0 auto;            /* centraliza horizontalmente se for bloco */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.3s, background 0.3s;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #f3e5f5;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px 80px 20px;
+    background: linear-gradient(145deg, #b192e5, #b192e5);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #ec407a;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d81b60;
+}
+
+/* Seções Alternadas */
+.section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #6a1b9a;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 17px;
+    color: #5a4b42;
+}
+
+.alt-section {
+    background-color: #f3e5f5;
+}
+
+.white-section {
+    background-color: #ffffff;
+}
+
+.bege-section {
+    background-color: #fdf8f2;
+}
+
+/* Divider */
+.section-divider {
+    height: 2px;
+    background-color: #d1c4e9;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Cards - Funcionalidades */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* aumenta o mínimo para melhor visual */
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px; /* bordas mais arredondadas */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    min-height: 170px; /* força todos com pelo menos essa altura */
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+    color: #7b1fa2;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #4a3f35;
+    flex-grow: 1; /* para que o parágrafo cresça e alinhe o conteúdo */
+}
+
+
+/* Formulário de Contato */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+form button {
+    padding: 12px 30px;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #4a148c;
+}
+
+/* Footer */
+.footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* Responsivo Mobile */
+@media (max-width: 768px) {
+    .nav-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo-img {
+        height: 60px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+}
