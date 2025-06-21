@@ -1,41 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escuta - Proteção para Mulheres</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+Em um contexto de crescentes desafios sociais e da urgente necessidade de combater a violência doméstica, o Escuta surge como uma solução sensível e inovadora, desenvolvida para acolher, orientar e proteger mulheres em situação de vulnerabilidade. Através de uma plataforma segura, prática e acessível, o aplicativo oferece um espaço de apoio contínuo, atuando como uma ponte entre as vítimas e as redes de ajuda.
 
-<header class="navbar">
-    <div class="container nav-content">
-        <div class="logo-container">
-            <img src="images/Escutafoto.jpg" alt="Logo Escuta" class="logo-img">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#funcionalidades">Funcionalidades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+O principal objetivo do Escuta é promover o acolhimento e a autonomia feminina, criando uma rede de apoio colaborativa e empática. Idealizado para ser uma ferramenta de fácil acesso, o aplicativo permite que as usuárias encontrem informações jurídicas e psicológicas com linguagem clara, contem com um canal de escuta ativa para desabafar de forma segura, acionem ajuda por meio de um botão de emergência e localizem delegacias especializadas, abrigos e centros de apoio próximos. Além disso, disponibiliza conteúdos educativos que fortalecem o autoconhecimento, explicam os diferentes tipos de violência e contribuem para o rompimento do ciclo de abuso.
 
-<section class="hero">
-    <div class="container">
-        <h2>Proteção Silenciosa. Apoio Constante.</h2>
-        <p>Aplicativo de acolhimento, proteção e suporte jurídico e emocional para mulheres em situação de vulnerabilidade.</p>
-        <a href="#sobre" class="btn">Saiba Mais</a>
-    </div>
-</section>
+Embora tenha nascido como um projeto acadêmico dos jovens estudantes, André Dalla Bernardina Seidel, Bianca Botan Benvindo, Marya Clara de Angeli Alves Oliveira, Nicoli Milla Pereira Alves e Samilly Costa Pereira, comprometidos com as causas sociais, o Escuta vai muito além de uma iniciativa escolar. Acreditamos no poder da tecnologia como instrumento de transformação social e na escuta como o primeiro passo para mudar realidades. Nosso propósito é oferecer um canal acolhedor e eficiente que possa impactar diretamente a vida de milhares de mulheres, promovendo segurança, dignidade e empoderamento.
 
-<section id="sobre" class="section">
-    <div class="container">
-        <h2>Sobre o Escuta</h2>
-        <p>O Escuta é uma plataforma digital de proteção, acolhimento e apoio. Oferecemos ajuda emergencial, suporte psicológico, orientação jurídica e localização de pontos seguros para mulheres.</p>
-    </div>
-</section>
-
-<section
+Em um mundo que clama por justiça, empatia e soluções com propósito, o Escuta representa um avanço significativo rumo a uma sociedade mais humana, segura e igualitária. Convidamos você a fazer parte dessa transformação. Com escuta, começa a mudança. Você não está sozinha. Nós estamos aqui.
